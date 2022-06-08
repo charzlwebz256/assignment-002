@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(/Photos/123.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.list{background:rgb(0,100,0);
+text-align: center;}
+.list ul {
+    display: inline-flex;
+    list-style: none;
+    color:#ffff;
+    animation: ease-in;
+    animation-duration: 10ms;
+}
+.list ul li{
+    width: 150px;
+    margin:15px;
+    padding: 15px;
+}
+.list ul li a{
+    text-decoration: none;
+    color:#fff}
+.active, .list ul li hover{
+        color:black;
+        border-radius: 3px;}
+        .sub{
+            display: none;
+        }
+.list .fa{
+    margin-left: 20px;
+}
+.list ul li:hover .sub{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.sub .fa{
+    margin: 10px;
+}
+.list ul li:hover .sub ul{
+    display: block;
+    margin: 25px;
+    background:transparent;
+    border-radius:0;
+}
+.active, .list ul li hover{
+    background: #2bad0d;
+    border-radius: 3px;
+    color: #b2ff00;}
+    .sub{
+        display: none;
+    }
+.list .fa{
+margin-left: 20px;
+
+
+}
+.list ul li:hover .sub{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.sub .fa{
+margin: 10px;
+}
+.list ul li:hover .sub ul{
+display: block;
+margin: 25px;
+}
+.list ul li:hover .sub ul li{
+    width:150px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.list ul li:hover .sub ul li a:hover{
+    color: #b2ff00;
+}
+.list ul li:hover{
+    background-color: black;
+    color:white;
+}
+.list ul li{
+    border-radius:50%;
+}
+.footer-container{
+    background-color:black;
+    font-size: 50px;
+    height: 600px;
+    margin-left: 0px;
+    font-family:fantasy;
+    color:blue;
+    margin-top: 600px;
+}
+    .footer-container ul{margin: 10px;}
+.footer-container ul a{
+    text-decoration: none;
+    color: white;}
+.footer-container ul li{
+    list-style-type: none;}
+.footer-container p{
+padding-left: 100px;
+padding-bottom: 100px;
+color:aquamarine;
+}
+marquee{
+    text-transform: uppercase;
+    margin-top: 450px;
+    background-color:black;
+    color:#ffff
+}
